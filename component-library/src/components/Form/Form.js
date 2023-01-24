@@ -1,11 +1,11 @@
 import React from 'react';
 import './Form.css';
 
-function Form () {
+function Form (props) {
     return(
         <form>
-            <label>Email</label>
-            <input></input>
+            <label>{props.label}</label>
+            <input placeholder={props.label}></input>
         </form>
     )
 }
