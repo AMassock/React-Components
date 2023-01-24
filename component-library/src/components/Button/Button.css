@@ -1,0 +1,38 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+}
+
+.button-default {
+    background-color: rgb(34, 38, 42);
+    color: white;
+    border: black;
+}
+
+.button-primary {
+    background-color: rgba(51, 160, 255, 1);
+    color: white;
+    border: #0069D9;
+}
+
+.button-danger {
+    background-color: rgb(255, 72, 88);
+    color: white;
+    border: red;
+}
+
+.button-success {
+    background-color: rgb(10, 208, 10);
+    color: white;
+    border: green;
+}
+
+.button-warning {
+    background-color: rgb(255, 198, 0);
+    color: white;
+    border: yellow;
+}
+
+.button-large {
+    padding: 10px 50px;
+}
