@@ -8,11 +8,22 @@ button {
     color: white;
     border: black;
 }
+.button-default:hover{
+    background-color: rgba(34, 38, 42, 0);
+    color: black;
+    border: black;
+}
 
 .button-primary {
     background-color: rgba(51, 160, 255, 1);
     color: white;
     border: #0069D9;
+}
+
+.button-primary:hover {
+    background-color: rgba(51, 160, 255, 0);
+    color: white;
+    border: 2px solid #0069D9;
 }
 
 .button-danger {
