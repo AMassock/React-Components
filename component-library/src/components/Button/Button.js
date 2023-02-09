@@ -16,7 +16,7 @@ const Button = (props) => {
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     } else {                                
-        classList += ` button-default`      // Set class to default if no type is supplied
+        classList += `button-default`      // Set class to default if no type is supplied
     }
 
     // Add another conditional statement to check for additional properties (such as large)
