@@ -5,6 +5,6 @@ import Form from './Form';
 
 storiesOf('Form', module)
     .add('Default', () => <Form />)
-    .add('Email', () => <Form label='email'/>)
-    .add('Email-Med', () => <Form label='email' med/>)
-    .add('Email-lrg', () => <Form label='email' large/>)
+    .add('Email', () => <Form label='Email'/>)
+    .add('Email-Med', () => <Form label='Email' med/>)
+    .add('Email-lrg', () => <Form label='Email' large/>)
