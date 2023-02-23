@@ -1,0 +1,14 @@
+select {
+    min-width: 150px;
+    min-height: 15px;
+}
+
+.select-med {
+    height: 25px;
+    width: 200px;
+}
+
+.select-large {
+    height: 35px;
+    width: 300px;
+}
