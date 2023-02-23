@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    min-height: 15px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.sub-med {
+    height: 25px;
+    width: 200px;
+}
+
+.sub-med button {
+    height: 25px;
+    width: 200px;
+}
+
+.sub-large {
+    height: 35px;
+    width: 300px;
+}
+
+.sub-large button {
+    height: 35px;
+    width: 300px;
+}
